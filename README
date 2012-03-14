@@ -1,22 +1,34 @@
 Test i 2012
 
-Områder og emner:
+Områder og emner for test i 2012:
 
-m.e17.dk Browser-kompatibilitet: IE9, SafariPC, SafariMac, Android -
-2.3X+, iPhone, iPad (kun iOS5), Windows7 (for spas). Dette skal testes
-for alle nedenstående punkter.  Tegneserier, lydbøger m. tekst +
-billeder, lydbøger u. tekst, eng. lydbøger, meget store lydbøger
-m. tekst.  Søgefunktion Login-funktionalitet Generel stress-test (Test
-med ikke-ordblinde) (Kvalitativ forundersøgelse af muligheder for
+Mobilafspiller:
+Afspilning af tegneserier
+Afspilning af lydbøger m. tekst + billeder, lydbøger u. tekst
+eng. lydbøger samt meget store lydbøger m. tekst. 
+
+Søgefunktion
+Login-funktionalitet
+Generel stress-test
+(Test med ikke-ordblinde)
+(Kvalitativ forundersøgelse af muligheder for
 udvidelser)
 
-e17.dk Login-funktionalitet samt oprettelsesprocedure for nye
-medlemmer Download + afspilning Søgefunktion (Kvalitativ undersøgelse
+e17.dk: 
+Login-funktionalitet samt oprettelsesprocedure for nye
+medlemmer 
+Download + afspilning (af samme typer lydbøger som for 
+mobilafspilleren)
+Søgefunktion 
+(Kvalitativ undersøgelse
 af indhold)
 
-nota.nu Søgefunktion (Kvalitativ undersøgelse af indhold)
+nota.nu:
+Søgefunktion 
+(Kvalitativ undersøgelse af indhold)
 
-nyhedsbrev (Generel test af layout)
+nyhedsbrev:
+(Generel test af layout)
 
 Test af m.e17.dk: I mobilafspilleren er særligt søgning, login og
 stress-test af essentiel bestydning, samt underlagt en skrap
@@ -40,7 +52,8 @@ nogenlunde gnidningsfrit har jeg i også tilføjet en mulig kvalitativ
 undersøgelse af hvilke ting man potentielt ville kunne udvide
 mobilafspilleren med.
 
-Noter til test af e17.dk I denne forbindelse synes jeg at søgning og
+Noter til test af e17.dk:
+I denne forbindelse synes jeg at søgning og
 download/afspilning bør have førsteprioritet, da disse umiddelbart
 virker som de mest problemfyldte af sitets funktionaliteter, med
 afspilning/download som en tæt tredjeplads. Ifbm. søgning skal vi
@@ -48,39 +61,23 @@ blive bedre til at forstå hvordan (og hvorvidt) vores brugere benytter
 tab completion, samt hvorvidt de egentlig foretrækker at bruge
 søgefunktionen i stedet for andre former for navigation.
 
-Her har jeg også tilføjet en undersøgelse af e17s indhold som en mulig
-supplement til de andre tests. Der er selvfølgelig en del historisk
-besvær forbundet med at gøre noget ved dette, men jeg forestiller mig
-at en undersøgelse potentielt kunne resultere i en smule idéfornyelse
-på inspirationsdelen af siden.
 
 
-Noter til test af nota.nu Test af firmahjemmesiden er i høj grad i den
+Noter til test af nota.nu:
+Test af firmahjemmesiden er i høj grad i den
 sidste del af ‘neeed to have/nice to have’-inddelingen, og er mest
 noget jeg synes vi bør foretage hvis vi pludselig står med ekstra tid
 på hænderne. Ligesom de to andre sider har nota.nu ikke en synderlig
 god søgefunktion, og det kunne tillige være rart at høre lidt fra
 marketing om hvordan vi kan optimere den og gøre den sexet.
 
-Noter til test af nyhedsbrev Nyhedsbrevet har jeg ikke selv set så
+Noter til test af nyhedsbrev:
+Nyhedsbrevet har jeg ikke selv set så
 meget til, og jeg ved ikke så meget om hvad der kunne trænge til at
 blive testet, eller hvor høj prioritet det bør have. Jeg har noteret
 det her for at sikre mig at få det meste med til at begynde med.
 
-Forslag til test-tidshorisont Jeg inddeler hver måned i d. 1., 15. og
-30. Når jeg noterer en dato er det naturligvis ikke specifikt dér, men
-i dagene omrking den dato at testen ville skulle lægges. Projekterne
-er inddelt i farver således: m.e17.dk, e17.dk, nota.nu. Som det står
-nu går kalenderen til juni, da jeg umiddelbart synes at det virker
-usikkert at planlægge mere end et halvt år frem.
-
-Januar - d. 15.: login (på samtlige devices) (Naja) - d. 15.: Generel
-teknisk afprøvning (på samtlige devices) (Naja) - d. 15.: login (uden
-rapport af issues til at starte med) - også på samtlige devices.
-
-Februar - d. 15.: Teknisk test af generel funktionalitet m. bug
-reporting til gitHub (Naja) - herunder ekstensiv test af
-browser-kompatibilitet.  - d. 30.: Første stress-test (m. elever)
+Tidshorisont:
 
 Marts - m.e17.dk skal testes for first time login. Følgende skal
 gennemgås:
