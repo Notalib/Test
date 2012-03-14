@@ -76,36 +76,3 @@ Nyhedsbrevet har jeg ikke selv set så
 meget til, og jeg ved ikke så meget om hvad der kunne trænge til at
 blive testet, eller hvor høj prioritet det bør have. Jeg har noteret
 det her for at sikre mig at få det meste med til at begynde med.
-
-Tidshorisont:
-
-Marts - m.e17.dk skal testes for first time login. Følgende skal
-gennemgås:
-
-Den mest åbenlyse tilgang er selvfølgelig at skrive m.e17.dk i
-browseren – det skal føre til login siden, derefter boghylden
-
-Gæste login: skal logge brugeren ind som guest i baggrunden og åbne
-bogen direkte: http://m.e17.dk/#book-play?book=37883&guest=true -hvis
-man i forvejen er logget på med almindeligt login, skal man ikke
-logges ind som gæst, men blive på sit almindelige login
-
-Deeplink til bog: skal dirigere til login siden, hvis ikke brugeren
-allerede er logget på, og derefter gå direkte til bogen:
-http://m.e17.dk/#book-play?book=19645
-
-Alle løsninger skal afprøves før og efter browserens cache er tømt, og
-der skal eksperimenteres omkring mere end ét login – altså det skal
-afprøves at logge af med ét login og derefter logge på med et nyt etc…
-
-   - Min side - på e17 skal testes inden launch d. 1.: Anden
-   - stress-test (m. lærere) d. 30: Evt. opfølgende letvægtstest af
-   - søgning + login
-
-April - d. 15.: Søgefunktion
-
-Maj - d. 15.: Download + afspilning - d. 30.: Evt. afsluttende
-afprøvning af tilbageværende kinks i m.e17.dk inden projektet tager
-sin afslutning.
-
-Juni - d. 15.: Login - d. 30.: Søgefunktion
