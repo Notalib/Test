@@ -1,0 +1,114 @@
+Test i 2012
+
+Områder og emner:
+
+m.e17.dk Browser-kompatibilitet: IE9, SafariPC, SafariMac, Android -
+2.3X+, iPhone, iPad (kun iOS5), Windows7 (for spas). Dette skal testes
+for alle nedenstående punkter.  Tegneserier, lydbøger m. tekst +
+billeder, lydbøger u. tekst, eng. lydbøger, meget store lydbøger
+m. tekst.  Søgefunktion Login-funktionalitet Generel stress-test (Test
+med ikke-ordblinde) (Kvalitativ forundersøgelse af muligheder for
+udvidelser)
+
+e17.dk Login-funktionalitet samt oprettelsesprocedure for nye
+medlemmer Download + afspilning Søgefunktion (Kvalitativ undersøgelse
+af indhold)
+
+nota.nu Søgefunktion (Kvalitativ undersøgelse af indhold)
+
+nyhedsbrev (Generel test af layout)
+
+Test af m.e17.dk: I mobilafspilleren er særligt søgning, login og
+stress-test af essentiel bestydning, samt underlagt en skrap
+deadline. På nuværende tidspunkt afventes (såvidt vides i skrivende
+stud) den nyeste version af kodebasen - så snart færdiggørelsen af
+denne er i horisonten skal praktiske foranstaltninger til test af de
+tre områder. Her foreslår jeg at søgning og login slåes sammen i én
+test-session, helst på en nogenlunde stor gruppe unge
+mennesker. Generel stress-test foreslår jeg at vi udfører mindst to af
+- gerne én med undervisere og én med unge ordblinde.
+
+Test af tegneserier vil sandsynligvis kunne udføres før de andre
+tests, da den er mere nichepræget og ikke sigter til at evaluere hele
+systemet som sådan.
+
+Som et muligt aber dabei har jeg noteret test af mobilafspilleren med
+ikke-ordblinde, da dette måske ville give noget interessant data men
+ikke er af livsnødvendig betydning før launch af
+applikationen. Såfremt launchen og den indledende brugsfase forløber
+nogenlunde gnidningsfrit har jeg i også tilføjet en mulig kvalitativ
+undersøgelse af hvilke ting man potentielt ville kunne udvide
+mobilafspilleren med.
+
+Noter til test af e17.dk I denne forbindelse synes jeg at søgning og
+download/afspilning bør have førsteprioritet, da disse umiddelbart
+virker som de mest problemfyldte af sitets funktionaliteter, med
+afspilning/download som en tæt tredjeplads. Ifbm. søgning skal vi
+blive bedre til at forstå hvordan (og hvorvidt) vores brugere benytter
+tab completion, samt hvorvidt de egentlig foretrækker at bruge
+søgefunktionen i stedet for andre former for navigation.
+
+Her har jeg også tilføjet en undersøgelse af e17s indhold som en mulig
+supplement til de andre tests. Der er selvfølgelig en del historisk
+besvær forbundet med at gøre noget ved dette, men jeg forestiller mig
+at en undersøgelse potentielt kunne resultere i en smule idéfornyelse
+på inspirationsdelen af siden.
+
+
+Noter til test af nota.nu Test af firmahjemmesiden er i høj grad i den
+sidste del af ‘neeed to have/nice to have’-inddelingen, og er mest
+noget jeg synes vi bør foretage hvis vi pludselig står med ekstra tid
+på hænderne. Ligesom de to andre sider har nota.nu ikke en synderlig
+god søgefunktion, og det kunne tillige være rart at høre lidt fra
+marketing om hvordan vi kan optimere den og gøre den sexet.
+
+Noter til test af nyhedsbrev Nyhedsbrevet har jeg ikke selv set så
+meget til, og jeg ved ikke så meget om hvad der kunne trænge til at
+blive testet, eller hvor høj prioritet det bør have. Jeg har noteret
+det her for at sikre mig at få det meste med til at begynde med.
+
+Forslag til test-tidshorisont Jeg inddeler hver måned i d. 1., 15. og
+30. Når jeg noterer en dato er det naturligvis ikke specifikt dér, men
+i dagene omrking den dato at testen ville skulle lægges. Projekterne
+er inddelt i farver således: m.e17.dk, e17.dk, nota.nu. Som det står
+nu går kalenderen til juni, da jeg umiddelbart synes at det virker
+usikkert at planlægge mere end et halvt år frem.
+
+Januar - d. 15.: login (på samtlige devices) (Naja) - d. 15.: Generel
+teknisk afprøvning (på samtlige devices) (Naja) - d. 15.: login (uden
+rapport af issues til at starte med) - også på samtlige devices.
+
+Februar - d. 15.: Teknisk test af generel funktionalitet m. bug
+reporting til gitHub (Naja) - herunder ekstensiv test af
+browser-kompatibilitet.  - d. 30.: Første stress-test (m. elever)
+
+Marts - m.e17.dk skal testes for first time login. Følgende skal
+gennemgås:
+
+Den mest åbenlyse tilgang er selvfølgelig at skrive m.e17.dk i
+browseren – det skal føre til login siden, derefter boghylden
+
+Gæste login: skal logge brugeren ind som guest i baggrunden og åbne
+bogen direkte: http://m.e17.dk/#book-play?book=37883&guest=true -hvis
+man i forvejen er logget på med almindeligt login, skal man ikke
+logges ind som gæst, men blive på sit almindelige login
+
+Deeplink til bog: skal dirigere til login siden, hvis ikke brugeren
+allerede er logget på, og derefter gå direkte til bogen:
+http://m.e17.dk/#book-play?book=19645
+
+Alle løsninger skal afprøves før og efter browserens cache er tømt, og
+der skal eksperimenteres omkring mere end ét login – altså det skal
+afprøves at logge af med ét login og derefter logge på med et nyt etc…
+
+   - Min side - på e17 skal testes inden launch d. 1.: Anden
+   - stress-test (m. lærere) d. 30: Evt. opfølgende letvægtstest af
+   - søgning + login
+
+April - d. 15.: Søgefunktion
+
+Maj - d. 15.: Download + afspilning - d. 30.: Evt. afsluttende
+afprøvning af tilbageværende kinks i m.e17.dk inden projektet tager
+sin afslutning.
+
+Juni - d. 15.: Login - d. 30.: Søgefunktion
